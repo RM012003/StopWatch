@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.content {
+    max-width: 540px;
+    background-color: #fff;
+    margin: 100px auto 20px;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+h2 {
+    color: #002765;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    background-color: #007bff;
+
+}
+.stopwatch {
+    font-size: 2em;
+}
+.controls {
+    margin-top: 20px;
+}
+.lap {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
